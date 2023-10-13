@@ -1,0 +1,11 @@
+article > p{
+    font-weight: bold;
+}
+article p{
+    color: blue;
+}
+
+div p{
+    background-color: orange;
+    font-weight: bold;
+}

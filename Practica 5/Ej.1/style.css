@@ -1,0 +1,20 @@
+fieldset{
+    background-color: yellow;
+}
+
+input[type="text"]{
+    background-color: green;
+}
+
+p:first-child input:hover{
+    background-color: white;
+}
+
+input[disabled]{
+    background-color: red;
+}
+
+p:first-child:hover::first-letter{
+    background-color: blue;
+}
+

@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    font-size: 30px;
+}
+
+header{
+    background-color: orange;
+    padding: 20px 50% 0px 0px;
+}
+
+nav{
+    background-color: rgb(114, 114, 221);
+    padding: 20px 120px 0px 90px;
+}
+
+section{
+    background: url("banner.jpg");
+    padding: 5px;
+    margin: 30px;
+}
+
+article{
+    color: white;
+
+}
+
+article:last-child{
+    padding-bottom: 300px;
+}
+
+aside{
+    background-color: rgba(330, 50, 120, 0.5);
+    margin: 15px;
+    padding: 20px 100px;
+    width: max-content;
+}
+
+footer{
+    background-color: orange;
+    margin: 30px 0px;
+    padding: 30px;
+}

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+*{
+    font-family: 'MedievalSharp';
+}
+
+h1{
+    color: rgb(100, 200, 300);
+}

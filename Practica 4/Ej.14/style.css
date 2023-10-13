@@ -1,0 +1,11 @@
+.caja{
+    float: left;
+    margin: 20px;
+    background-color: rgb(192, 192, 192);
+    padding: 20px;
+}
+
+#caja1{
+    box-shadow: yellow -5px -5px 0px 0px;
+    border-radius: 0px 0px 35px 0px;
+}

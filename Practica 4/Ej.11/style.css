@@ -1,0 +1,17 @@
+a{
+    background-color: gray;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 2em;
+    color: white;
+    text-decoration: underline;
+}

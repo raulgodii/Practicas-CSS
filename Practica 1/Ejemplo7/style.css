@@ -1,0 +1,33 @@
+b{
+    color: red;
+}
+
+.prueba{
+    text-decoration: overline, underline;
+}
+
+#prueba2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: red;
+}
+
+h3{
+    color: blue;
+    font-weight: bold;
+}
+
+h3 b{
+    text-decoration: underline;
+}

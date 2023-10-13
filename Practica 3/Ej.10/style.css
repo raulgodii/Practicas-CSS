@@ -1,0 +1,52 @@
+table, th, td{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+table th, table td{
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
+table>tbody>tr:nth-child(1)>th:first-child{
+    background-color: red;
+    color: white;
+}
+table>tbody>tr:nth-child(2)>th:first-child{
+    background-color: red;
+    color: white;
+}
+table>tbody>tr:nth-child(3)>th:first-child{
+    background-color: red;
+    color: white;
+}
+table>tbody>tr:nth-child(4)>th:first-child{
+    background-color: red;
+    color: white;
+}
+
+img{
+    height: 40px;
+}
+
+table>tbody>tr:first-child>td{
+    background-color: grey;
+    font-size: 2em;
+}
+
+table>tbody>tr:nth-child(2) td{
+    color: red;
+}
+
+.primera{
+    font-weight: normal;
+}
+
+table>thead>tr:first-child>th:nth-child(2), table>thead>tr:first-child>th:nth-child(3), table>tbody>tr:nth-child(2)>td:last-child, table>tbody>tr:nth-child(3)>th:nth-child(2), table>tbody>tr:nth-child(3)>th:nth-child(3), table>thead>tr:first-child>th:nth-child(3), table>tbody>tr:nth-child(2)>td:last-child, table>tbody>tr:nth-child(3)>th:nth-child(2), table>tbody>tr:nth-child(4)>th:nth-child(2), table>tbody>tr:last-child{
+    background-color: blue;
+}
+
+table>tbody>tr:nth-child(4)>th:last-child{
+    background-color: yellow;
+    padding: 50px;
+}

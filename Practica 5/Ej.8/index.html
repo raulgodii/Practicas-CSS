@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejericio 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <h1>Formulario de Registro</h1>
+        <section class="section1">
+            <h3>Nombre y apellidos</h3>
+            <div class="content">
+                <input type="text" name="nombre" size="40">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="apellido1" size="60">
+                <label for="apellido1">Primer apellido</label>
+                <input type="text" name="apellido2" size="60">
+                <label for="apellido2">Segundo apellido</label>
+            </div>
+        </section>
+
+        <section class="section2">
+            <h3>Dirección</h3>
+            <div class="content">
+                <input type="text" name="direccion" size="60">
+                <label for="direccion">Calle, número, piso, puerta</label>
+                <br>
+                <div class="inline">
+                    <input type="text" name="codigopostal">
+                    <label for="codigopostal">Código postal</label>
+                </div>
+                <div class="inline margen">
+                    <input type="text" name="municipio" size="30">
+                    <label for="municipio">Municipio</label>
+                </div>
+                <br>
+                <div class="inline">
+                    <select id="provincia" name="provincia">
+                        <option value=""></option>
+                        <option value="provincia1">Provincia 1</option>
+                        <option value="provincia2">Provincia 2</option>
+                        <option value="provincia3">Provincia 3</option>
+                      </select>
+                    <label for="provincia">Provincia</label>
+                </div>
+                <div class="inline margen">
+                    <select id="pais" name="pais">
+                        <option value=""></option>
+                        <option value="pais1">País 1</option>
+                        <option value="pais2">País 2</option>
+                        <option value="pais3">País 3</option>
+                      </select>
+                    <label for="pais">País</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="section3">
+            <h3>Email</h3>
+            <div class="content">
+                <input type="email" name="email" size="60">
+            </div>
+        </section>
+
+        <section class="section4">
+            <h3>Teléfono</h3>
+            <div class="content">
+                <div class="inline">
+                    <input type="text" name="fijo">
+                    <label for="fijo">Fijo</label>
+                </div>
+                <div class="inline margen">
+                    <input type="text" name="movil">
+                    <label for="movil">Móvil</label>
+            </div>
+        </section>
+
+        <section class="section5">
+            <input class="submit" type="submit" value="Registrarse">
+        </section>
+    </form>
+</body>
+</html>

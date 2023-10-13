@@ -1,0 +1,14 @@
+thead>tr, tfoot>tr{
+    color: white;
+    background-color: brown;
+    text-transform: uppercase;
+}
+
+td:last-child{
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color: blue;
+    color: white;
+}

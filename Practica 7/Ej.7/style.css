@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 2em;
+}
+
+
+nav ul li a:hover{
+    background-color: black;
+}
+
+nav ul li ul{
+    display: none;
+}
+
+nav ul li a:hover + ul, nav ul li ul:hover{
+    display: block;
+}

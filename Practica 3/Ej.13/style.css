@@ -1,0 +1,35 @@
+.primero{
+    color: blue;
+}
+
+p.primero{
+    color: red;
+}
+
+section.primero{
+    color: green;
+}
+
+#estilo{
+    color: lightgray;
+}
+
+p#verdoso{
+    color: lightgreen;
+}
+
+.primero span{
+    color: purple;
+}
+
+.primero > span{
+    color: salmon;
+}
+
+span .primero{
+    color: lime;
+}
+
+.primero.segundo{
+    color: navy;
+}

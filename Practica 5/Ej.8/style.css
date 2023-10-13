@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 2%;
+}
+
+section{
+    border-top: 2px solid black;
+    padding: 2%;
+}
+
+input:not(.submit), select{
+    border: none;
+    border-bottom: 2px dotted black ;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 1%;
+}
+
+
+label{
+    color: grey;
+}
+
+h3{
+    text-align: right;
+    width: 20%;
+}
+
+section:focus-within{
+    background-color: #FFFFE0;
+}
+
+.content{
+    margin: 1% 20%;
+}
+
+.submit{
+    font-size: em;
+    padding: 1%;
+}
+
+div.inline{
+    display: inline-block;
+}
+
+.margen{
+margin-left: 30%;
+}
+
+select:first-child{
+    width: 170px;
+}
+
+input:focus, select:hover{
+    border: none;
+    border: 3px solid blue;
+}

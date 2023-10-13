@@ -1,0 +1,53 @@
+@media screen and (max-width: 640px) {
+body {
+
+}
+}
+
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+body {
+
+}
+}
+
+@media screen and (min-width: 1280px) {
+body {
+
+}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 20px;
+}
+
+header{
+    background-color: blue;
+}
+
+nav{
+    background-color: brown;
+}
+
+section{
+    background-color: blueviolet;
+    display: flex;
+    width: 70%;
+}
+
+article{
+    background-color: yellowgreen;
+}
+
+aside{
+    background-color: aqua;
+    display: flex;
+    width: 30%;
+}
+
+footer{
+    background-color: green;
+}

@@ -1,0 +1,33 @@
+body{
+    color: #00F;
+    background-color: rgb(163, 190, 245);
+    font-family: Georgia, Cambria, Serif;
+    font-size: 16px;
+}
+
+h1{
+    color: #6b1010;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 32px;
+}
+
+h2{
+    color: #A00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-family: 24px;
+}
+
+ul{
+    color: #060;
+}
+
+.azul{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.negro{
+    color: #FFF;
+    background-color: #000;
+    font-style: italic;
+}

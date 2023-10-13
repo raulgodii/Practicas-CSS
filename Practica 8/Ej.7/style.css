@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h4, a, p{
+    font-family: Lobster;
+    font-size: 30px;
+    color: gray;
+}
+
+h1{
+    font-size: 50px;
+}
+
+nav{
+    padding: 50px;
+    margin-left: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    margin: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+body>section{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+hr{
+    margin: 20px;
+    color: black;
+}
+
+article{
+    padding: 20px;
+    border: 1px gray solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+main>div:first-child{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+main>div:nth-child(2){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article>img{
+    border-radius: 20px;
+}
+
+article>img{
+    height: 200px;
+    width: 100%;
+}
+
+div:first-child article:first-child>img{
+    height: 300px;
+    width: 70%;
+}
+
+article:nth-child(2)>img{
+    height: 250px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>section{
+    margin: 30px;
+}

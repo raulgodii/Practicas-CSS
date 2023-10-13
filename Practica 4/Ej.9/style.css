@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 150%;
+}
+
+p{
+    width: 340px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 10px;
+    background-color: rgb(81, 120, 220);
+    font-style: italic;
+    font-size: 70%;
+    overflow:hidden;
+    float: left;
+    clear:right;
+}

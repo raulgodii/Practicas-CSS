@@ -1,0 +1,19 @@
+.left{
+    text-align: left;
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+
+.right{
+    text-align: right;
+    border-bottom: 1px solid black;
+}
+
+.center{
+    text-align: center;
+    font-weight: bold;
+}
+
+.justify{
+    text-align: justify;
+}

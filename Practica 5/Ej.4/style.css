@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+article{
+    background-color: gray;
+}
+
+p{
+    background-color: white;
+    width: 100px;
+}
+
+p:nth-child(2){
+    padding: 10px;
+}
+
+p:nth-child(3){
+    margin: 10px;
+}
+
+p:last-child{
+    margin: 0 0 0 89%;
+}

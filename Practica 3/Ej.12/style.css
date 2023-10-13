@@ -1,0 +1,50 @@
+h2{
+    color: blue;
+}
+
+#parrafo_intro{
+    font-size: 0.8em;
+}
+
+span{
+    color: green;
+    text-decoration: underline;
+}
+
+img[title*='DeLorean']{
+    border: 2px dotted red;
+}
+
+img:nth-child(3){
+    height: 500px;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: yellow;
+}
+
+ul ul{
+    font-weight: bold;
+}
+
+.footer{
+    text-align: right;
+    color: grey;
+}
+
+.year{
+    color: orange;
+    text-decoration: none;
+}
+
+body>p:first-letter{
+    font-size: 40px;
+}

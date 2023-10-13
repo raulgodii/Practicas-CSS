@@ -1,0 +1,12 @@
+ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+li{
+    background-color: antiquewhite;
+    margin: 10px;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: green;
+    width: 100%;
+}
+
+main{
+    background-color: yellow;
+    width: 100%;
+}
+
+section{
+    background-color: grey;
+    width: 100%;
+}
+
+footer{
+    background-color: blue;
+    width: 100%;
+}
